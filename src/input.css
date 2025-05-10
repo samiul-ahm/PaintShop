@@ -5,5 +5,8 @@
 @theme {
   --color-head: #feedbc;
   --color-btn: #f9b800;
+  --color-yel: #F9B800;
+  --color-dark:#262626;
+
   --font-sage: "Segoe UI", sans-serif;
 }
