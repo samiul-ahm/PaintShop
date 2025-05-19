@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="font-sage scroll-smooth">
+<html lang="en" class="font-sage sm:scroll-smooth">
 
 <head>
   <meta charset="UTF-8" />
@@ -10,13 +10,13 @@
 
 <body>
   <header class="min-h-screen bg-head pt-8">
-    <section class="bg-white mx-auto max-w-80 h-[72px] flex justify-start rounded-[3750px] sm:max-w-7xl sm:justify-center sm:h-24">
+    <section
+      class="bg-white mx-auto max-w-80 h-[72px] flex justify-start rounded-[3750px] sm:max-w-7xl sm:justify-center sm:h-24">
       <img src="/desktop/paint-logo.png" alt="paint-logo" class="p-4" />
     </section>
     <section
       class="flex flex-col-reverse justify-center mx-auto sm:flex-row sm:max-w-7xl sm:mt-16 sm:justify-between sm:items-center sm:gap-8">
-      <div class="text-left  m-4 flex flex-col  sm:mt-14 sm:w-3/4 ">
-
+      <div class="text-left m-4 flex flex-col sm:mt-14 sm:w-3/4">
         <h3 class="text-yel text-base font-bold uppercase selection:bg-yel selection:text-white sm:text-3xl">
           risus praesent vulputate.
         </h3>
@@ -28,15 +28,14 @@
         </h2>
 
         <section>
-
           <!--Button row 1-->
-          <div class="flex flex-col sm:flex-row  sm:gap-3.5 sm:mt-14">
+          <div class="flex flex-col sm:flex-row sm:gap-3.5 sm:mt-14">
             <button
-              class="flex justify-center items-center gap-1.5 mb-3.5 p-3.5 text-[#262626] font-semibold  bg-white rounded-[4213px] sm:gap-2 sm:py-3.5 sm:pl-5 sm:pr-10 sm:rounded-[5000px] selection:bg-dark selection:text-white">
+              class="flex justify-center items-center gap-1.5 mb-3.5 p-3.5 text-[#262626] font-semibold bg-white rounded-[4213px] sm:gap-2 sm:py-3.5 sm:pl-5 sm:pr-10 sm:rounded-[5000px] selection:bg-dark selection:text-white">
               <img src="/desktop/icon-tick.png" alt="tick" /><a href="#">Cursus Integer</a>
             </button>
             <button
-              class="flex justify-center items-center gap-1.5 mb-3.5 p-3.5 text-[#262626] font-semibold  bg-white rounded-[4213px] sm:gap-2 sm:py-3.5 sm:pl-5 sm:pr-10 sm:rounded-[5000px] selection:bg-dark selection:text-white">
+              class="flex justify-center items-center gap-1.5 mb-3.5 p-3.5 text-[#262626] font-semibold bg-white rounded-[4213px] sm:gap-2 sm:py-3.5 sm:pl-5 sm:pr-10 sm:rounded-[5000px] selection:bg-dark selection:text-white">
               <img src="/desktop/icon-tick.png" alt="tick" /><a href="#">Integer Consequat</a>
             </button>
           </div>
@@ -45,26 +44,126 @@
 
           <div class="flex flex-col sm:flex-row sm:gap-3.5 sm:mb-14">
             <button
-              class="flex justify-center items-center gap-1.5 mb-3.5 p-3.5 text-[#262626] font-semibold  bg-white rounded-[4213px] sm:gap-2 sm:py-3.5 sm:pl-5 sm:pr-10 sm:rounded-[5000px] selection:bg-dark selection:text-white">
-              <img src="/desktop/icon-tick.png" alt="tick" /> <a href="#">Tellus Euismod
-              Pellentesque</a>
+              class="flex justify-center items-center gap-1.5 mb-3.5 p-3.5 text-[#262626] font-semibold bg-white rounded-[4213px] sm:gap-2 sm:py-3.5 sm:pl-5 sm:pr-10 sm:rounded-[5000px] selection:bg-dark selection:text-white">
+              <img src="/desktop/icon-tick.png" alt="tick" />
+              <a href="#">Tellus Euismod Pellentesque</a>
             </button>
             <button
-              class="flex justify-center items-center gap-1.5 mb-3.5 p-3.5 text-[#262626] font-semibold  bg-white rounded-[4213px]  sm:gap-2 sm:py-3.5 sm:pl-5 sm:pr-10 sm:rounded-[5000px] selection:bg-dark selection:text-white">
+              class="flex justify-center items-center gap-1.5 mb-3.5 p-3.5 text-[#262626] font-semibold bg-white rounded-[4213px] sm:gap-2 sm:py-3.5 sm:pl-5 sm:pr-10 sm:rounded-[5000px] selection:bg-dark selection:text-white">
               <img src="/desktop/icon-tick.png" alt="tick" /><a href="#">Aliquot Tristique</a>
             </button>
           </div>
         </section>
-        <button class="mt-8 bg-yel text-[18px] flex justify-between items-center py-4 px-10 rounded-[3846px] w-80 sm:w-[350px] sm:rounded-[5000px] text-dark  font-bold selection:bg-yel selection:text-dark"><a href="#">
-          Lorem Ipsum</a> <img src="/desktop/right-arrow.png" alt="arrow" />
+        <button
+          class="mt-8 bg-yel text-[18px] flex justify-between items-center py-4 px-10 rounded-[3846px] w-80 sm:w-[350px] sm:rounded-[5000px] text-dark font-bold selection:bg-yel selection:text-dark sm:mb-56">
+          <a href="#"> Lorem Ipsum</a>
+          <img src="/desktop/right-arrow.png" alt="arrow" />
         </button>
       </div>
-      <div class="mb-10 mx-4 sm:w-1/2">
+      <div class="mb-10 mx-4 flex justify-center items-center sm:w-1/2">
         <img src="/desktop/cover-paint.png" alt="cover-paint" class="w-full h-auto" />
       </div>
     </section>
   </header>
-  <main class=>
+  <main class="bg-dark">
+    <section class="max-w-7xl mx-auto flex flex-col sm:flex-row sm:justify-center sm:items-center">
+      <article class="flex flex-col gap-7 sm:gap sm:w-1/2 mb-14">
+        <p
+          class="text-yel text-[20px] font-normal tracking-[0.4px] w-80 px-5 mt-[70px] sm:w-[550px] sm:px-0 selection:bg-yel selection:text-white">
+          Quisque porttitor vitae vel amet neque scelerisque mattis.
+          Consectetur nibh velit magna consectetur leo.
+        </p>
+        <p
+          class="text-white text-4xl font-bold w-80 px-5 sm:text-5xl sm:w-[530px] sm:px-0 sm:mb-14 selection:text-white selection:bg-dark">
+          Cursus Integer Conseq Aliquam Tristique.
+        </p>
+        <button
+          class="text-[18px] text-dark font-bold flex justify-between items-center py-4 px-10 rounded-[3846px] bg-white w-80 mx-5 sm:py-5 sm:w-[320px] sm:px-12 sm:mx-0 sm:rounded-[5000px]">
+          <a href="#">Lorem Ipsum</a>
+          <img src="/desktop/right-arrow.png" alt="right-arrow" />
+        </button>
+      </article>
+      <article class="sm:w-1/2">
+
+        <!--Row 1-->
+
+        <div class="flex flex-col mx-[20px] gap-7 sm:flex-row sm:gap-14">
+          <div
+            class="bg-white w-[335px] h-[382px] rounded-[57px] px-16 py-12 sm:mt-[165px] sm:rounded-[60px] sm:w-[350px] sm:h-[400px]">
+            <img src="/desktop/icon-join.png" alt="icon-join" />
+            <h1 class="text-dark text-[68px] font-bold sm:text-7xl ">1<span class="text-yel sm:text-7xl">.</span></h1>
+            <h2 class="text-dark text-[22px] font-bold sm:text-2xl">Phasellus Vitae</h2>
+            <h3 class="text-dark text-[19px] font-semibold sm:text-[20px]">Quisque</h3>
+            <p class="text-dark text-[17px] font-[35ppx] capitalize sm:text-[18px]">Porttitor vitae vel amet </p>
+          </div>
+
+          <div
+            class="bg-yel w-[335px] h-[382px] rounded-[57px] px-16 py-12 sm:mt-[288px] sm:rounded-[60px] sm:w-[350px] sm:h-[400px]">
+            <img src="/desktop/icon-inifinity.png" alt="icon-inifinity" />
+            <h1 class="text-dark text-[68px] font-bold sm:text-7xl ">2<span class="text-dark sm:text-7xl">.</span></h1>
+            <h2 class="text-dark text-[22px] font-bold sm:text-2xl">Phasellus Vitae</h2>
+            <h3 class="text-dark text-[19px] font-semibold sm:text-[20px]">Quisque</h3>
+            <p class="text-dark text-[17px] font-[35ppx] capitalize sm:text-[18px]">Porttitor vitae vel amet </p>
+          </div>
+
+        </div>
+
+        <!--Row 2-->
+
+        <div class="flex flex-col mx-[20px] gap-7 mt-7 sm:flex-row sm:gap-14">
+          <div
+            class="bg-yel w-[335px] h-[382px] rounded-[57px] px-16 py-12 sm:mt-[-123px] sm:rounded-[60px] sm:w-[350px] sm:h-[400px]">
+            <img src="/desktop/icon-hands.png" alt="icon-hands" />
+            <h1 class="text-dark text-[68px] font-bold sm:text-7xl ">3<span class="text-dark sm:text-7xl">.</span></h1>
+            <h2 class="text-dark text-[22px] font-bold sm:text-2xl">Phasellus Vitae</h2>
+            <h3 class="text-dark text-[19px] font-semibold sm:text-[20px]">Quisque</h3>
+            <p class="text-dark text-[17px] font-[35ppx] capitalize sm:text-[18px]">Porttitor vitae vel amet </p>
+          </div>
+
+          <div
+            class="bg-white w-[335px] h-[382px] rounded-[57px] px-16 py-12 mb-80 sm:mb-96 sm:-[60px] sm:rounded-[60px] sm:w-[350px] sm:h-[400px]">
+            <img src="/desktop/icon-man-yoga.png" alt="icon-man-yoga" />
+            <h1 class="text-dark text-[68px] font-bold sm:text-7xl ">4<span class="text-yel sm:text-7xl">.</span></h1>
+            <h2 class="text-dark text-[22px] font-bold sm:text-2xl">Phasellus Vitae</h2>
+            <h3 class="text-dark text-[19px] font-semibold sm:text-[20px]">Quisque</h3>
+            <p class="text-dark text-[17px] font-[35ppx] capitalize sm:text-[18px]">Porttitor vitae vel amet </p>
+          </div>
+        </div>
+
+      </article>
+    </section>
+    <section class="bg-yel min-h-screen">
+      <div class="bg-dark relative h-24 w-full"></div>
+      <div class="relative z-10 max-w-7xl mx-auto -mt-32">
+        <div
+          class="bg-white rounded-[50px] flex flex-col sm:flex-row items center justify-between sm:gap-16 sm:items-start p-8 sm:p-12 shadow-lg">
+          <!--Left image-->
+          <div class="shrink-0 mb-6 sm:mb-0 sm:mr-10">
+            <div class="w-48 h-48 sm:w-64 sm:h-64 rounded-full overflow-hidden mx-auto">
+              <img src="/desktop/male-photo.png" alt="male-photo" class=" w-full h-full object-cover grayscale">
+            </div>
+          </div>
+          <!--Right text-->
+          <div class="text-center md:text-left">
+            <h2 class="text-2xl md:text-3xl font-bold text-[#242424] mb-4">
+              What our customers thought?
+            </h2>
+            <p class="text-[#333] text-base md:text-lg mb-4">
+              Euismod magna id purus eget nunc ligula suspendisse dui netus.
+              Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis.
+            </p>
+            <p class="font-semibold text-[#242424] mb-6">Holly Davidson</p>
+
+            <!-- Arrows -->
+            <div class="flex justify-center md:justify-start gap-4 text-2xl">
+              <button class="text-black hover:text-gray-700"><img src="/desktop/trending-flat-left-black.png" alt="trending-flat-left-black"></button>
+              <button class="text-[#fbbc04] hover:text-yellow-500"><img src="/desktop/trending-flat-right.png" alt="trending-flat-right"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
   </main>
 </body>
